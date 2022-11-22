@@ -10,7 +10,11 @@ a {
   width: 350px;
   margin: 0 auto;
   background-color: #fff;
-  border: solid 2px black;
+}
+.container-add {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #758ecd;
 }
 .head-page {
   background-color: #a7beff;
@@ -41,6 +45,7 @@ a {
 .container-add-training {
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 50px !important;
 }
 .add-training {
   height: 50px;
@@ -112,18 +117,19 @@ label {
 }
 
 .container-form-training {
-  margin-top: -20px !important;
-  border: solid 2px black;
-  border-radius: 5px;
+  margin-top: -60px !important;
+  border-radius: 10px;
   width: 95%;
   margin: 0 auto;
   background-color: white;
   padding: 5px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 #name-trainig {
+  margin-top: 30px !important;
   text-align: center;
-  color: black;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0 auto;
   width: 90%;
@@ -144,4 +150,40 @@ label {
 
   /* height: 1px !important; */
   width: 50%;
+}
+
+#date {
+  border: none;
+  font-size: 15px;
+  color: gray;
+}
+
+.date-label {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.date-label-2 {
+  display: flex;
+  background-color: #fff;
+
+  width: 70%;
+  justify-content: space-around;
+  margin-left: 1%;
+  margin-top: 10px;
+}
+
+.button-submit {
+  margin: 20px;
+}
+
+.bottom-page {
+  text-align: center;
+}
+.bottom-page > img {
+  height: 100px;
+  width: 100px;
 }

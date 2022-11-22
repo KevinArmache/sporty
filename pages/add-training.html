@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container-add">
       <div class="container-header">
         <div class="container-return-button" style="position: absolute">
           <a href="../index.html">
@@ -28,7 +28,7 @@
         </div>
         <div class="container-choose-file">
           <label for="upload-photo">
-            <div class="container-add-training" style="padding: 20px">
+            <div class="container-add-training" style="padding: 60px">
               <div class="add-training" style="background-color: gray">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +60,159 @@
             placeholder="Nommer l'entrainement..."
           />
           <span class="only-line"></span>
+          <div class="container date date-label">
+            <label for="date" class=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#758ecd"
+                  d="M12 14q-.425 0-.712-.288Q11 13.425 11 13t.288-.713Q11.575 12 12 12t.713.287Q13 12.575 13 13t-.287.712Q12.425 14 12 14Zm-4 0q-.425 0-.713-.288Q7 13.425 7 13t.287-.713Q7.575 12 8 12t.713.287Q9 12.575 9 13t-.287.712Q8.425 14 8 14Zm8 0q-.425 0-.712-.288Q15 13.425 15 13t.288-.713Q15.575 12 16 12t.712.287Q17 12.575 17 13t-.288.712Q16.425 14 16 14Zm-4 4q-.425 0-.712-.288Q11 17.425 11 17t.288-.712Q11.575 16 12 16t.713.288Q13 16.575 13 17t-.287.712Q12.425 18 12 18Zm-4 0q-.425 0-.713-.288Q7 17.425 7 17t.287-.712Q7.575 16 8 16t.713.288Q9 16.575 9 17t-.287.712Q8.425 18 8 18Zm8 0q-.425 0-.712-.288Q15 17.425 15 17t.288-.712Q15.575 16 16 16t.712.288Q17 16.575 17 17t-.288.712Q16.425 18 16 18ZM5 22q-.825 0-1.413-.587Q3 20.825 3 20V6q0-.825.587-1.412Q4.175 4 5 4h1V2h2v2h8V2h2v2h1q.825 0 1.413.588Q21 5.175 21 6v14q0 .825-.587 1.413Q19.825 22 19 22Zm0-2h14V10H5v10Z"
+                />
+              </svg>
+            </label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="container date date-label-2">
+            <label for="date" class=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#758ecd"
+                  d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71l-1.42 1.41z"
+                />
+              </svg>
+            </label>
+            <input type="time" name="date" id="date" />
+          </div>
+          <div
+            style="
+              margin: auto;
+              text-align: center;
+              width: 70%;
+              margin-top: 20px;
+            "
+            title="60.00%"
+          >
+            <span style="font-weight: bold; color: #758ecd; font-size: 25px"
+              >RPE</span
+            >
+            <div
+              style="
+                text-align: left;
+                margin: 2px auto;
+                font-size: 0px;
+                line-height: 0px;
+                background: #dddddd;
+              "
+            >
+              <div
+                style="
+                  font-size: 0px;
+                  line-height: 0px;
+                  height: 3px;
+                  min-width: 60%;
+                  max-width: 60%;
+                  width: 60%;
+                  background: #1d3d8d;
+                "
+              >
+                <!---->
+              </div>
+            </div>
+            <div style="font-size: 16px; font-family: fantasy">6 &#47; 10</div>
+          </div>
+          <div
+            style="
+              margin: auto;
+              text-align: center;
+              width: 70%;
+              margin-top: 20px;
+            "
+            title="60.00%"
+          >
+            <span style="font-weight: bold; color: #758ecd; font-size: 25px"
+              >Stress</span
+            >
+            <div
+              style="
+                text-align: left;
+                margin: 2px auto;
+                font-size: 0px;
+                line-height: 0px;
+                background: #dddddd;
+              "
+            >
+              <div
+                style="
+                  font-size: 0px;
+                  line-height: 0px;
+                  height: 3px;
+                  min-width: 40%;
+                  max-width: 40%;
+                  width: 40%;
+                  background: #1d3d8d;
+                "
+              >
+                <!---->
+              </div>
+            </div>
+            <div style="font-size: 16px; font-family: fantasy">4 &#47; 10</div>
+          </div>
+          <div
+            style="
+              margin: auto;
+              text-align: center;
+              width: 70%;
+              margin-top: 20px;
+            "
+            title="60.00%"
+          >
+            <span style="font-weight: bold; color: #758ecd; font-size: 25px"
+              >Sommeil</span
+            >
+            <div
+              style="
+                text-align: left;
+                margin: 2px auto;
+                font-size: 0px;
+                line-height: 0px;
+                background: #dddddd;
+              "
+            >
+              <div
+                style="
+                  font-size: 0px;
+                  line-height: 0px;
+                  height: 3px;
+                  min-width: 60%;
+                  max-width: 60%;
+                  width: 60%;
+                  background: #1d3d8d;
+                "
+              >
+                <!---->
+              </div>
+            </div>
+            <div style="font-size: 16px; font-family: fantasy">6 &#47; 10</div>
+          </div>
+
+          <div class="button-submit">
+            <input type="submit" value="Soumettre" />
+          </div>
         </form>
+      </div>
+      <div class="bottom-page">
+        <img src="../img/logo_150x150.jpg" alt="" />
       </div>
     </div>
   </body>
