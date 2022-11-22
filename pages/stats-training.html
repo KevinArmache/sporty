@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Sporty</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  </head>
+  <body>
+    <div class="container-3">
+      <div class="head-page">
+        <a href="./index.html">
+          <img class="head-page-image" src="../img/logo_150x150.jpg" alt="" />
+        </a>
+      </div>
+      <div class="container-no-stat">
+        <div class="container-logo-no-stat">
+          <img src="../img/logo_150x150.jpg" alt="" />
+        </div>
+        <div class="container-text-no-stat">
+          <span>Pas encore de stats ?</span>
+          <span
+            ><a href=""
+              >AJOUTER UN ENTRAINEMENT
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="white"
+                  d="m14 18l-1.4-1.45L16.15 13H4v-2h12.15L12.6 7.45L14 6l6 6Z"
+                /></svg></a
+          ></span>
+        </div>
+      </div>
+      <div class="container-time-stats">
+        <span>9h25min</span>
+        <span>Durée totale d'entrainement de la semaine</span>
+        <span class="only-line2"></span>
+        <span>Evolution de la charge d'entrainement</span>
+      </div>
+
+      <div class="container-canvas">
+        <canvas id="myChart" style="width: 100%; max-width: 700px"></canvas>
+      </div>
+      <div class="only-line2 container-line"></div>
+    </div>
+
+    <script src="../js/chart.js"></script>
+  </body>
+</html>

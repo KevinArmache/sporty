@@ -14,7 +14,7 @@ a {
 .container-add {
   width: 350px;
   margin: 0 auto;
-  background-color: #758ecd;
+  background-color: #a7beff;
 }
 .head-page {
   background-color: #a7beff;
@@ -186,4 +186,78 @@ label {
 .bottom-page > img {
   height: 100px;
   width: 100px;
+}
+
+.container-no-stat {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  background-color: #2f196a;
+  border-radius: 20px;
+}
+.container-logo-no-stat {
+  width: 40%;
+  text-align: center;
+}
+.container-logo-no-stat > img {
+  width: 75px;
+  height: 75px;
+}
+.container-text-no-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container-text-no-stat > span {
+  height: 49%;
+  font-weight: bold;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+.container-text-no-stat > span > a {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.container-text-no-stat > span:nth-child(2) {
+  font-weight: bold;
+  font-size: 12px;
+}
+.container-time-stats {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-time-stats > span:nth-child(1) {
+  text-align: center;
+  font-size: 32px;
+  color: #758ecd;
+}
+.container-time-stats > span:nth-child(2) {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  color: gray;
+}
+.container-time-stats > span:nth-child(4) {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  color: #758ecd;
+  margin-top: 15px;
+}
+
+.only-line2 {
+  border: solid 1px gray;
+  margin: 0 auto;
+  /* height: 1px !important; */
+  width: 55%;
+  text-align: center;
+}
+
+.container-line {
+  margin-top: 20px;
+  /* border: solid 2px black; */
 }
