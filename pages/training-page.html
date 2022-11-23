@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sporty</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-page">
+        <a href="../index.html">
+          <img class="head-page-image" src="../img/logo_150x150.jpg" alt="" />
+        </a>
+      </div>
+      <div class="container-search-input">
+        <input
+          type="search"
+          name="last-working"
+          id="last-working"
+          placeholder="Entrainements précédents"
+        />
+      </div>
+      <div class="list-training"></div>
+      <div class="container-add-training">
+        <a href="../pages/add-training.html" class="add-training">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+          >
+            <path fill="white" d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6Z" />
+          </svg>
+        </a>
+        <p class="color-text-add-trainig">Ajouter un entrainement</p>
+      </div>
+      <div>
+        <nav class="container-main">
+          <div class="main-section">
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill="gray"
+                  d="M8.5 2a1.5 1.5 0 0 0-1.415 1H5.5A1.5 1.5 0 0 0 4 4.5v12A1.5 1.5 0 0 0 5.5 18h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 14.5 3h-1.585A1.5 1.5 0 0 0 11.5 2h-3ZM8 3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm1.354 4.354l-1.75 1.75a.5.5 0 0 1-.691.015l-.75-.685a.5.5 0 1 1 .674-.738l.397.362l1.412-1.412a.5.5 0 1 1 .708.708Zm0 4.292a.5.5 0 0 1 0 .708l-1.75 1.75a.5.5 0 0 1-.691.015l-.75-.685a.5.5 0 0 1 .674-.738l.397.363l1.412-1.413a.5.5 0 0 1 .708 0ZM11 12.75h2.5a.5.5 0 0 1 0 1H11a.5.5 0 0 1 0-1Zm-.5-4.5a.5.5 0 0 1 .5-.5h2.5a.5.5 0 0 1 0 1H11a.5.5 0 0 1-.5-.5Z"
+                />
+              </svg>
+              <span>Entrainements</span>
+            </a>
+          </div>
+          <div class="main-section">
+            <a href="../pages/stats-training.html"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="gray"
+                  d="M20 12a2 2 0 0 0-.703.133l-2.398-1.963c.059-.214.101-.436.101-.67C17 8.114 15.886 7 14.5 7S12 8.114 12 9.5c0 .396.1.765.262 1.097l-2.909 3.438A2.06 2.06 0 0 0 9 14c-.179 0-.348.03-.512.074l-2.563-2.563C5.97 11.348 6 11.179 6 11c0-1.108-.892-2-2-2s-2 .892-2 2s.892 2 2 2c.179 0 .348-.03.512-.074l2.563 2.563A1.906 1.906 0 0 0 7 16c0 1.108.892 2 2 2s2-.892 2-2c0-.237-.048-.46-.123-.671l2.913-3.442c.227.066.462.113.71.113a2.48 2.48 0 0 0 1.133-.281l2.399 1.963A2.077 2.077 0 0 0 18 14c0 1.108.892 2 2 2s2-.892 2-2s-.892-2-2-2z"
+                />
+              </svg>
+              <span>Statistiques</span>
+            </a>
+          </div>
+          <div class="main-section">
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="3em"
+                height="3em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 48 48"
+              >
+                <g fill="gray" fill-rule="evenodd" clip-rule="evenodd">
+                  <path
+                    d="M14.809 34.714c6.845-1 11.558-.914 18.412.035A2.077 2.077 0 0 1 35 36.818c0 .48-.165.946-.463 1.31A61.165 61.165 0 0 1 32.941 40h2.641c.166-.198.333-.4.502-.605A4.071 4.071 0 0 0 37 36.819c0-2.025-1.478-3.77-3.505-4.05c-7.016-.971-11.92-1.064-18.975-.033c-2.048.299-3.52 2.071-3.52 4.11c0 .905.295 1.8.854 2.525c.165.214.328.424.49.63h2.577a57.88 57.88 0 0 1-1.482-1.85A2.144 2.144 0 0 1 13 36.845c0-1.077.774-1.98 1.809-2.131ZM24 25a6 6 0 1 0 0-12a6 6 0 0 0 0 12Zm0 2a8 8 0 1 0 0-16a8 8 0 0 0 0 16Z"
+                  />
+                  <path
+                    d="M24 42c9.941 0 18-8.059 18-18S33.941 6 24 6S6 14.059 6 24s8.059 18 18 18Zm0 2c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z"
+                  />
+                </g>
+              </svg>
+              <span>Profil</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
